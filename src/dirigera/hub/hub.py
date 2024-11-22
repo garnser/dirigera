@@ -59,7 +59,7 @@ class Hub(AbstractSmartHomeHub):
         on_pong: Any = None,
         on_data: Any = None,
         on_cont_message: Any = None,
-        ping_intervall: int = 60,
+        ping_intervall: int = 10,
     ) -> None:
         """
         Create an event listener.
